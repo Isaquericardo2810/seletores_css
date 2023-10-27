@@ -31,3 +31,19 @@ main {
 input [type="password"] {
     font-size: 3rem;
 }
+/* Seletor por descendente */
+.login-form input {
+    font-size: 2rem;
+    color: #f00;
+}
+/* Seletor de filhos diretos */
+.login-form > input {
+    color: #0f0;
+    width: 10rem;
+}
+
+/* Pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+    background: #00f;
+}
+
